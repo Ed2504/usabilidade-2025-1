@@ -1,0 +1,19 @@
+h1 {
+    border: 1px solid #0000ff; 
+    border-radius: 5px;
+}
+#cxalegal {
+    border: 1px solid #FFFF00; 
+    background-color: #e0e0e0; 
+    font-size: 18pt; 
+    font-weight: 900;
+}
+.estilolegal {
+    background-color: #FFFF00;
+    font-size: 46pt;
+    border: 2px dotted red;
+}
+.bordinha {
+    border-radius: 10px;
+    font-size: 12pt;
+}
