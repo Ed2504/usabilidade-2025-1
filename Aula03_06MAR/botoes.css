@@ -1,0 +1,45 @@
+
+.btn {
+    border: 1px solid #404040;
+    border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+    margin-left: 3px;
+    margin-right: 3px;  
+    background-color: #e0e0e0;
+    text-decoration: none;
+    color: #202020;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn-sm {
+    font-size: 10pt;
+}
+
+.btn-lg {
+    font-size: 16pt;
+}
+
+.btn-xl {
+    font-size: 20pt;
+}
+
+.btn-success {
+    background-color: #006000;
+    color: white;
+    border-color: #00FF00;
+}
+
+.btn-danger {
+    background-color: #600000;
+    color: white;
+    border-color: #FF0000;
+}
+
+.btn-warning {
+    background-color: #aa8020;
+    color: white;
+    border-color: #808020;
+}
