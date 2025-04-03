@@ -1,39 +1,11 @@
-/*
-for(let i=0; i<10; i++) {
-    console.log("Oi gente "+i);
-}
-*/
+import { decrypt, encrypt } from "./crypto.js";
+import { areaCirculo } from "./matematica.js";
 
-//let idade = 20.5
-//console.log("idade"+idade);
-//console.log("idade",idade);
+let segredo = encrypt("Oi gente")
+console.log("Segredo: ",segredo);
 
-//let fazAlgo = function(valor) {
-//    console.log("você passou o valor ",valor);
-//    console.log("Estou fazendo alguma coisa...");
-//    return valor+1
-//}
-//
-//console.log(fazAlgo);
-//
-//let outro = fazAlgo
-//console.log(outro);
-//
-//let x = fazAlgo(5)
-////let y = outro(8)
-////
-//console.log("x",x);
-////console.log("y",y);
+let original = decrypt(segredo)
+console.log("Original: ",original);
 
-let contador  = 1
-
-let id = setInterval(() => {
-    contador++
-    console.log(contador);
-},50)
-//console.log(id);
-
-setTimeout(() => {
-    clearInterval(id);
-},4000)
-
+let area = areaCirculo(10)
+console.log("area: ",area);
