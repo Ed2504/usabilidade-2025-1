@@ -27,9 +27,7 @@ for(let i=0; i<10; i++) {
 
 let contador  = 1
 
-
-
-let id = setInterval(function() {
+let id = setInterval(() => {
     contador++
     console.log(contador);
 },50)
