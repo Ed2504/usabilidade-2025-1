@@ -10,3 +10,5 @@
 * **Aula06** (27/03) Tech Week IX [link](https://animatechweek.com.br/)
 * [Aula 07](./Aula07_03ABR/) (03/04) - 
     - Javascript para quem já sabe programar
+* [Aula 08](./Aula08_10ABR/) (10/04) - 
+    - Jogo dos palitinhos
