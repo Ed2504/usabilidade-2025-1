@@ -3,6 +3,13 @@ import Door from "./Door"
 import Fruta from "./Fruta";
 
 function App() {
+  let frutas = [
+    { nome: "Limão", icone: "ep:orange" },
+    { nome: "Laranja", icone: "lucide-lab:lemon" },
+    { nome: "Morango", icone: "lucide-lab:strawberry" },
+    { nome: "Morango", icone: "lucide-lab:strawberry" },
+    { nome: "Morango", icone: "lucide-lab:strawberry" },
+  ]
 
   return (
     <>
@@ -12,6 +19,7 @@ function App() {
           App template - Vite + React + WindCSS + Iconify
         </div>
       </div>
+      {frutas.map((elem) => <Fruta nome={elem.nome} iconName={elem.icone} />)}
       <Door />
       <Fruta nome="Laranja" iconName="ep:orange" />
       <Fruta nome="Limão" iconName="lucide-lab:lemon" />
