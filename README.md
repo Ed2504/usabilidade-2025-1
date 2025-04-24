@@ -14,3 +14,5 @@
     - Jogo dos palitinhos
 * [Aula 09](./Aula09_17ABR/) (17/04) - 
     - Introdução React
+* [Aula 10](./Aula10_24ABR/) (24/04) - 
+    - React - A Revanche
