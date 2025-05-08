@@ -16,3 +16,6 @@
     - Introdução React
 * [Aula 10](./Aula10_24ABR/) (24/04) - 
     - React - A Revanche
+* (01/05) - **FERIADO**
+* [Aula 11](./Aula11_08MAI/) (08/05) - 
+    - React - A Revanche
