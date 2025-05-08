@@ -1,12 +1,12 @@
 import { Icon } from "@iconify/react";
 
-export default function TaskItem() {
+export default function TaskItem({ nome }) {
 
     return (
         <>
             <div className="bg-gray-200 p-2 rounded m-2 flex items-center justify-between md:w-140">
                 <div>
-                    Uma tarefa
+                    { nome }
                 </div>
                 <div className="flex items-center gap-2">
                     <div className="border border-black rounded-2xl px-1.5 pt-1 bg-green-800 text-white">
