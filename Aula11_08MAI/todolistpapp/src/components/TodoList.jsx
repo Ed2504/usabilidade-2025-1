@@ -2,7 +2,7 @@ import TaskForm from "./TaskForm";
 import TaskItem from "./TaskItem";
 
 export default function TodoList() {
-    const tasks = ["Uma tarefa", "Outra tarefa", "Alguma coisa", "mais um" ]
+    const tasks = ["Uma tarefa", "Outra tarefa", "Outra tarefa", "Alguma coisa", "mais um" ]
 
     return (
         <>
